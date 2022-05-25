@@ -1,0 +1,49 @@
+body {
+  font-family: 'Times New Roman', Times, serif; 
+  color: #000;
+  font-size: 21px;
+  line-height: 1,61px;
+}
+
+.cabeçalho,
+.menu__titulo {
+  font-family:'Fredoka One', cursive;
+  color: rgb(218, 97, 22);
+}
+
+.lista {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.titulo__receita {
+  font-family:'Black Han Sans', sans-serif; 
+  color: #FFB300;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.autora__receita {
+  position: relative;
+  left: 45%;
+  font-family:'Black Han Sans', sans-serif; 
+  color: #000;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.ingredientes {
+  line-height: 1px
+}
+
+.ingredientes__lista {
+  line-height: 1,61px;
+}
+
+h3,
+h4 {
+  color: #FFB300;
+}
+
+

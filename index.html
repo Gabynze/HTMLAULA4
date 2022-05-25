@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minhas Receitas</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="cabeçalho">
+      <h1>Cantinho Doce</h1>
+      <img src="img/imagem1.jpg" alt="Uma mesa com doces e café" width="300" height="350">
+    </header>
 
-    <h1>Cantinho Doce</h1>
-
-      <img src="img/imagem1.jpg" alt="Uma mesa com batedeira e doces" width="300" height="350">
-
-    <h2>Conteúdo</h2>
-      <ul>
-          <li> <a href="#Biscoito">Biscoitinho de aveia</a> </li>
-          <li> <a href="#listaIngredientes">Ingredientes</a> </li>
-          <li> <a href="#preparo">Modo de preparo</a> </li>
-          <li> <a href="#delícia">Ficou uma delícia!</a> </li>
+    <!-- Menú receita -->
+    <div>
+      <h2 class="menu__titulo">Conteúdo</h2>
+      <ul class="lista">
+        <li> <a href="#Biscoito">Biscoitinho de aveia</a> </li>
+        <li> <a href="#listaIngredientes">Ingredientes</a> </li>
+        <li> <a href="#preparo">Modo de preparo</a> </li>
+        <li> <a href="#delícia">Ficou uma delícia!</a> </li>
       </ul>
-    
-    <h2 id="Biscoito"> Biscoitinho de Aveia </h2>
+    </div>
+
+    <!-- Receita-->
+    <div>
+      <h2 class="titulo__receita" id="Biscoito"> Biscoitinho de Aveia </h2>
+      <p class="autora__receita">Autora: Gabriela Nuñez</p>
       <p> Quem gosta de docinhos caseiros vai adorar esta receita de biscoito de aveia!</p>
       <p> Além de delicioso, é ótimo para levar com você na correria do dia a dia! Veja como fazer essa delícia!</p>
       <img src="img/imagem2.jpeg" alt="Biscoitos com Aveia" width="400">
+      <hr>
 
-    
-    <h3 id="listaIngredientes"> Ingredientes</h3>
-      <ul>
+      <p> <strong>Preparo:</strong> 60 minutos</p>
+      <p><strong>Rendimento:</strong> 10 porções</p>
+      <hr>
+    </div>
+
+    <!--Ingredientes-->
+    <div class="ingredientes">
+      <h3 id="listaIngredientes"> Ingredientes</h3>
+    </div>
+
+    <div>
+      <ul class="ingredientes__lista">
           <li>1 xícara e 1/2 de aveia em flocos finos</li>
           <li>1/2 xícara de chá de açúcar
           <li>3 colheres de sopa de manteiga ou margarina</li> 
@@ -35,19 +58,28 @@
           <li>1/2 colher de chá de canela em pó</li> 
           <li>1 ovo</li>
       </ul>
+      <hr>
+    </div>
 
-    <h3 id="preparo"> Modo de Preparo</h3>
-    <ol>
-        <li> <p> Coloque em uma tigela todos os ingredientes e misture-os muito bem.</p> </li>
-        <li> <p> Com 1 colher de chá coloque porções de massa numa assadeira untada, deixando um espaço de 5 cm entre um biscoito e outro. </p> </li>
-        <li> <p> Leve ao forno moderado e asse por 8 a 10 minutos ou até que a superfície esteja seca e as beiradas dos biscoitos ligeiramente douradas. </p> </li>
-        <li> <p> Deixe esfriar um pouco antes de retirar da assadeira.</p></li>
-    </ol>
+    <!--preparo-->
+    <div class="Preparo">
+      <h3 class="titulo__preparo" id="preparo"> Modo de Preparo</h3>
+      <ol>
+          <li> <p> Coloque em uma tigela todos os ingredientes e misture-os muito bem.</p> </li>
+          <li> <p> Com 1 colher de chá coloque porções de massa numa assadeira untada, deixando um espaço de 5 cm entre um biscoito e outro. </p> </li>
+          <li> <p> Leve ao forno moderado e asse por 8 a 10 minutos ou até que a superfície esteja seca e as beiradas dos biscoitos ligeiramente douradas. </p> </li>
+          <li> <p> Deixe esfriar um pouco antes de retirar da assadeira.</p></li>
+      </ol>
+      <hr>
+    </div>
 
-    <h4 id="delícia"> 
+    <!--Video Receita-->
+    <div>
+      <h4 id="delícia"> 
         Ficou uma delícia, para comer no café da manhã, da tarde ou levar de lanche!
-    </h4>
-        <video width="400" controls src="videos/video.mp4"></video>
-      
-</body>
+      </h4>
+      <video width="400" controls src="videos/video.mp4"></video>
+    </div>
+        
+  </body>
 </html>
