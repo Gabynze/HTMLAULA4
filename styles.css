@@ -13,7 +13,12 @@ body {
 
 .lista {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #FFB300;
+}
+
+a {
   text-decoration: none;
+  color: rgb(218, 97, 22);
 }
 
 .titulo__receita {
